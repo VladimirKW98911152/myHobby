@@ -1,0 +1,75 @@
+body {
+	display: grid;
+	background-color: white;
+	border-width: 20px;
+}
+
+h1 {
+	color: white;
+	vertical-align: middle;
+	font-size: 30px;
+}
+
+.colontitulUpp {
+	width: auto;
+	background-color: black;
+	float: right;
+	align-items: end;
+	margin: 30px;
+	padding: 20px;
+	font-size: 15px;
+	font-family: Georgia, "Times New Roman"; 
+}
+
+.containt {
+	display: flex;
+	width: 100%;
+	background-color: white;
+	float: right;
+	align-items: right;
+	margin: 10px;
+	padding: 20px;
+	font-size: 15px;
+	font-family: Georgia, "Times New Roman"; 
+}
+
+.containt1 {
+	text-align: justify;
+	margin: 30px;
+	font-size: 50px;
+	text-indent: 50px;
+}
+
+.containt2 {
+	text-align: justify;
+	margin: 30px;
+	font-size: 20px;
+	text-indent: 50px;
+}
+
+.kont0 {
+    height: 100%;
+    display: table;
+    float: right;
+    padding: 0px 20px;
+    background-color: black;
+}
+
+.kont1 {
+    vertical-align: middle;
+    display: table-cell;
+    color: white;
+    background: black;
+    padding: 20px;
+    transition: 0.5s linear;
+}
+
+.kont1:hover {
+    color: blue;
+    background: orange;
+}
+
+.img {
+	border-radius: 10px;
+	width: 200px
+}
